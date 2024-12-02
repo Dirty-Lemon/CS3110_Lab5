@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Lab 5, Kevin Terceros</title>
+    </head>
+
+    <body onload = "main()">
+        <canvas id = "webgl" width = "500" height = "450">
+            Please use the browser supporting "canvas"
+        </canvas>
+        
+        <p upCtrlMsg1> Increase:
+            &nbsp&nbsp&nbsp&nbsp | &nbsp
+            R Arrow &nbsp| |&nbsp
+            U Arrow | | &nbsp&nbsp
+            '.' key &nbsp | | &nbsp
+            'd' key &nbsp| | &nbsp
+            'w' key | |&nbsp
+            'e' key &nbsp| | &nbsp&nbsp
+            'l' key &nbsp | | &nbsp
+            'i' key &nbsp | | &nbsp
+            'o' key &nbsp |
+        </p>
+
+        <p id = "lookAt">The lookAt matrix is displayed here.</p>
+
+        <p downCtrl1Msg> Decrease:
+            &nbsp&nbsp&nbsp | &nbsp
+            L Arrow &nbsp| |&nbsp
+            D Arrow | | &nbsp&nbsp
+            ',' key &nbsp | | &nbsp
+            'a' key &nbsp| | &nbsp
+            's' key | |&nbsp
+            'q' key &nbsp| | &nbsp&nbsp
+            'j' key &nbsp | | &nbsp
+            'k' key &nbsp | | &nbsp
+            'u' key &nbsp |
+        </p>
+
+        <p upCtrl2Msg> Increase:
+            &nbsp&nbsp&nbsp&nbsp | &nbsp&nbsp
+            'v' key &nbsp&nbsp | | &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            'r' key &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp | | &nbsp
+            'n' key &nbsp | | &nbsp
+            'f' key &nbsp |
+        </p>
+
+        <p id = "perspective">The Perspective matrix is displayed here.</p>
+
+        <p downCtrl1Msg> Decrease:
+            &nbsp&nbsp&nbsp | &nbsp&nbsp
+            'V' key &nbsp | | &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            'R' key &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp | | &nbsp
+            'N' key &nbsp| | &nbsp
+            'F' key &nbsp |
+        </p>
+
+        <script src="../lib/webgl-utils.js"></script>
+        <script src="../lib/webgl-debug.js"></script>
+        <script src="../lib/cuon-utils.js"></script>
+        <script src="../lib/cuon-matrix.js"></script>
+        <script src="CS3110_Lab5_KevinTerceros.js"></script>
+    </body>
+</html>
